@@ -1,9 +1,16 @@
-// import _ from "lodash";
+class P {
+  constructor(firstName, LastName) {
+    this.firstName = firstName;
+    this.LastName = LastName;
+  }
 
-// const intersection = _.intersection([1, 2, 3], [3, 4, 5]);
-// console.log(intersection);
+  getName() {
+    return `${this.firstName} ${this.LastName}`;
+  }
 
-const fn = (a, b) => {
-  const c = a + b;
-  return c;
-};
+  getFirstName() {
+    return `${this.firstName}`;
+  }
+}
+
+export default P;
