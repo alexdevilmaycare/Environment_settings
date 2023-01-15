@@ -19,5 +19,8 @@
   "homepage": "https://github.com/alexdevilmaycare/Environment_settings#readme",
   "dependencies": {
     "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "jest": "^29.3.1"
   }
 }
